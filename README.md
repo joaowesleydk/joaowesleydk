@@ -1,36 +1,58 @@
 /**
- * João Wesley Damas Kind
- * Software Developer in Progress
+ * ======================================================
+ *  João Wesley Damas Kind
+ *  Desenvolvedor de Software em Formação
+ * ======================================================
  */
 
-const profile = {
-  name: "João Wesley",
-  role: "Student & Software Developer",
-  location: "Brazil",
-  focus: ["Web Development", "APIs", "Programming Logic"],
+const perfil = {
+  nome: "João Wesley",
+  localizacao: "Brasil",
+  area: "Desenvolvimento de Software",
+  foco: [
+    "Aplicações Web",
+    "APIs REST",
+    "Boas práticas de programação"
+  ]
 };
 
-const stack = {
-  languages: ["JavaScript", "Python"],
-  frontend: ["React", "HTML", "CSS"],
-  backend: ["Node.js", "FastAPI"],
-  tools: ["Git", "GitHub", "VS Code"],
+const stackTecnologica = {
+  linguagens: [
+    "JavaScript",
+    "Python"
+  ],
+  frontend: [
+    "React",
+    "HTML5",
+    "CSS3"
+  ],
+  backend: [
+    "Node.js",
+    "FastAPI"
+  ],
+  bancosDeDados: [
+    "PostgreSQL",
+    "SQLite"
+  ],
+  ferramentas: [
+    "Git",
+    "GitHub",
+    "VS Code"
+  ]
 };
 
-function currentStatus() {
-  return {
-    studying: "Full Stack Development",
-    building: [
-      "Web applications",
-      "REST APIs",
-      "Personal projects"
-    ],
-    goal: "Become a professional software developer",
-  };
-}
+const statusAtual = {
+  estudando: "Desenvolvimento Full Stack",
+  desenvolvendo: [
+    "Projetos pessoais",
+    "Aplicações web completas",
+    "APIs RESTful"
+  ],
+  objetivo: "Atuar profissionalmente como desenvolvedor de software"
+};
 
-export default {
-  profile,
-  stack,
-  currentStatus,
+export {
+  perfil,
+  stackTecnologica,
+  statusAtual
 };
