@@ -1,19 +1,36 @@
-## 👋 Olá, eu sou o João Wesley!
+/**
+ * João Wesley Damas Kind
+ * Software Developer in Progress
+ */
 
-💻 Desenvolvedor apaixonado por tecnologia  
-🌱 Estudando Front-end e Back-end com JavaScript e APIs  
+const profile = {
+  name: "João Wesley",
+  role: "Student & Software Developer",
+  location: "Brazil",
+  focus: ["Web Development", "APIs", "Programming Logic"],
+};
 
-### 🧰 Tecnologias
-- JavaScript
-- React
-- Node.js
-- APIs REST
+const stack = {
+  languages: ["JavaScript", "Python"],
+  frontend: ["React", "HTML", "CSS"],
+  backend: ["Node.js", "FastAPI"],
+  tools: ["Git", "GitHub", "VS Code"],
+};
 
-### 📂 Meus projetos favoritos
-- **Frontend-portalTurismo** – App de turismo  
-- **Backend-portalTurismo** – Backend em JS  
-- Outros projetos na aba de repositórios 👇
+function currentStatus() {
+  return {
+    studying: "Full Stack Development",
+    building: [
+      "Web applications",
+      "REST APIs",
+      "Personal projects"
+    ],
+    goal: "Become a professional software developer",
+  };
+}
 
-📫 Me encontre por aí:
-📌 Email: joaodkind@gmail.com
-📌 LinkedIn: https://linkedin.com/in/seulink
+export default {
+  profile,
+  stack,
+  currentStatus,
+};
